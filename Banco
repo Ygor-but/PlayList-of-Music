@@ -1,0 +1,13 @@
+create database playlist;
+use playlist;
+create table musica(
+id int not null auto_increment,
+nome varchar(100) not null,
+duracao int,
+tamanho int,
+genero varchar(50),
+album varchar(50) not null,
+autor varchar(100) not null,
+primary key(id)
+);
+
